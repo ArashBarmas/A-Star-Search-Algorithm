@@ -7,6 +7,32 @@
 #include "model.h"
 #include <iostream>
 
+/*
+RouteModel object:
+data structure to hold all of the OpenStretMap data in an convinient format
+
+It has subclass called Node, a Node represents a single point in data
+
+Node has 2 mthods:
+findneighbor to find neighbors to add to the open list
+and distance to find distance for the heuristic function
+
+
+RoutePlanner object:
+provides all the methods to perform A* search
+
+A* search method -> search algoriothm
+NextNode method 
+ConstructFinalPath method
+AddNeighbors
+
+
+
+
+
+
+*/
+
 class RouteModel : public Model {
 
   public:
